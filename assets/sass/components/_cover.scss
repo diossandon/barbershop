@@ -1,0 +1,25 @@
+.hero-section {
+    background-image: url("../../assets/images/post-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.about__naomi-image {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+}
+
+.about__naomi--image-mobile {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+
+.about__contact--align {
+   align-items: center;
+}

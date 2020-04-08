@@ -1,0 +1,41 @@
+.button {
+    padding: .7rem 2rem;
+    border-radius: 30px;
+    border: none;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $platinum;
+    background-color: $nickel;
+
+    &:hover{ 
+        background-color: $lightgray;
+        border-color: $white1;
+        color: $platinum;
+    }
+
+    &:focus {
+        background-color: $nickel;
+        border-color: $platinum;
+        color: $platinum;  
+        border: 3px solid;
+    }
+}
+
+
+.button__sm {
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    border: none;
+    font-family: $roboto;
+    font-size: $small;
+    color: $platinum;
+    background-color: $nickel;
+    margin-left: 1%;
+
+    &:focus {
+        background-color: $nickel;
+        border-color: $platinum;
+        color: $platinum;  
+        border: 3px solid;
+    }
+}

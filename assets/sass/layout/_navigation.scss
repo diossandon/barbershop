@@ -1,0 +1,37 @@
+
+.navbar-brand--logo {
+width: 25%;
+}
+
+.navbar--text-color {
+    background-color: $eerieblack;
+}
+
+.nav-link {
+    color:$platinum;
+}
+
+
+
+
+.pages{
+    background-color: $lightgray;
+    color:$eerieblack;
+
+}
+
+
+.page-link{
+    background-color: $white1;
+    color:$eerieblack;
+
+  &:hover {
+      background-color: $nickel;
+      color: $white1;
+  }
+
+  &:focus {
+    background-color: $white1;
+    color: $platinum;
+  }
+}

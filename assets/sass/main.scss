@@ -1,10 +1,9 @@
-@import 'abstracts/variables';
 @import 'abstracts/functions';
+@import 'abstracts/variables';
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
-@import 'vendors/bootstrap';
-@import 'vendors/jquery-ui';
+@import 'vendors/bootstrap-4.4.1/bootstrap';
 
 @import 'base/reset';
 @import 'base/typography';

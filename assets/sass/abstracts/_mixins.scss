@@ -1,0 +1,18 @@
+.about__contact--text-decoration {
+    text-decoration: none;
+    color: $spanishpink;
+
+    &:hover{ 
+        color: $raisinblack;
+    }
+
+    &:focus {
+        
+        color: $platinum;
+    }
+}
+
+hr {
+    background-color: $platinum;
+    height: 2px;
+}

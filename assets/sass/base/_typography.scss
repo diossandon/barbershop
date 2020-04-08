@@ -1,0 +1,49 @@
+h1 {
+    font-family: $playfairdisplay;
+    font-size: $xxlarge;
+    font-style: italic;
+    font-weight: $black900;
+    color: $white1;
+}
+
+h3 {
+    font-family: $playfairdisplay;
+    font-size: $medium;
+    font-weight: $light300;
+    color: $nickel;
+
+}
+
+p {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $regular400;
+    color: $nickel;
+}
+
+h2 {
+    font-family: $playfairdisplay;
+    font-size: $xlarge;
+    font-style: italic;
+    font-weight: $black900;
+    color:$eerieblack;
+}
+
+a {
+    font-family: $roboto;
+    font-size: $large;
+    font-weight: $regular400;
+    color: $spanishpink;
+}
+
+.about .about__contact--text-decoration{
+    text-decoration: none;
+}
+
+span{
+    color: $ruddypink;
+    
+    &:hover{ 
+        color: $raisinblack;
+    }
+}
