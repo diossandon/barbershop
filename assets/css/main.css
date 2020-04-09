@@ -7885,12 +7885,18 @@ span {
     color: #E6E7E7; }
 
 .hero-section__title {
+  margin-left: 25%;
+  margin-right: 25%;
   padding-top: 15%; }
 
 .footer {
   background-color: #121619;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  white-space: none; }
+
+.footer__logo {
+  width: 20%; }
 
 .button {
   padding: .7rem 2rem;
@@ -7925,6 +7931,12 @@ span {
     color: #E6E7E7;
     border: 3px solid; }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#008000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+
+.navbar-toggler {
+  border-color: #FFF; }
+
 .hero-section {
   background-image: url("../../assets/images/post-image.jpg");
   background-size: cover;
@@ -7932,6 +7944,13 @@ span {
   background-position: center;
   height: 100%;
   width: 100%; }
+
+.hero-section__title--sm {
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 900;
+  color: #FFF; }
 
 .about__naomi-image {
   width: 200px;
